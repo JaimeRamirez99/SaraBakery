@@ -58,19 +58,10 @@
     <Compile Include="SignInA.Designer.cs">
       <DependentUpon>SignInA.cs</DependentUpon>
     </Compile>
-    <Compile Include="SaraBakery.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SaraBakery.Designer.cs">
-      <DependentUpon>SaraBakery.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SaraBakery.resx">
-      <DependentUpon>SaraBakery.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

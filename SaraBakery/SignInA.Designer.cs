@@ -41,65 +41,65 @@
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Font = new System.Drawing.Font("Milky Coffee", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblName.Location = new System.Drawing.Point(294, 190);
+            this.lblName.Font = new System.Drawing.Font("Milky Coffee", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.Location = new System.Drawing.Point(402, 276);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(207, 35);
+            this.lblName.Size = new System.Drawing.Size(362, 61);
             this.lblName.TabIndex = 1;
             this.lblName.Text = "Sara´s Bakery";
             // 
             // lblUser
             // 
             this.lblUser.AutoSize = true;
-            this.lblUser.Font = new System.Drawing.Font("Milky Coffee", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUser.Location = new System.Drawing.Point(274, 272);
+            this.lblUser.Font = new System.Drawing.Font("Milky Coffee", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUser.Location = new System.Drawing.Point(388, 409);
             this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(79, 24);
+            this.lblUser.Size = new System.Drawing.Size(166, 48);
             this.lblUser.TabIndex = 2;
             this.lblUser.Text = "Usuario";
             // 
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
-            this.lblPassword.Font = new System.Drawing.Font("Milky Coffee", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPassword.Location = new System.Drawing.Point(274, 322);
+            this.lblPassword.Font = new System.Drawing.Font("Milky Coffee", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPassword.Location = new System.Drawing.Point(388, 475);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(118, 24);
+            this.lblPassword.Size = new System.Drawing.Size(250, 48);
             this.lblPassword.TabIndex = 3;
-            this.lblPassword.Text = "Contraseña";
+            this.lblPassword.Text = "Contrasena";
             // 
             // txtUser
             // 
-            this.txtUser.Font = new System.Drawing.Font("Milky Coffee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUser.Location = new System.Drawing.Point(359, 271);
+            this.txtUser.Font = new System.Drawing.Font("Milky Coffee", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUser.Location = new System.Drawing.Point(583, 409);
             this.txtUser.Name = "txtUser";
-            this.txtUser.Size = new System.Drawing.Size(155, 25);
+            this.txtUser.Size = new System.Drawing.Size(245, 42);
             this.txtUser.TabIndex = 4;
             // 
             // txtPassword
             // 
-            this.txtPassword.Font = new System.Drawing.Font("Milky Coffee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(398, 321);
+            this.txtPassword.Font = new System.Drawing.Font("Milky Coffee", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.Location = new System.Drawing.Point(644, 475);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(155, 25);
+            this.txtPassword.Size = new System.Drawing.Size(257, 42);
             this.txtPassword.TabIndex = 5;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::SaraBakery.Properties.Resources.cupcake;
-            this.pictureBox1.Location = new System.Drawing.Point(317, 37);
+            this.pictureBox1.Location = new System.Drawing.Point(464, 56);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(163, 145);
+            this.pictureBox1.Size = new System.Drawing.Size(236, 205);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // SignInA
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(217)))), ((int)(((byte)(226)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1200, 692);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUser);
             this.Controls.Add(this.lblPassword);
