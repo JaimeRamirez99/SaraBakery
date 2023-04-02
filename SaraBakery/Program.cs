@@ -16,7 +16,7 @@ namespace SaraBakery
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SaraBakery());
+            Application.Run(new SignInA());
         }
     }
 }
