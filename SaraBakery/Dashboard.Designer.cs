@@ -50,11 +50,10 @@
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.userLabel = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.lblUser = new System.Windows.Forms.Label();
             this.Carrito = new System.Windows.Forms.ListBox();
             this.total = new System.Windows.Forms.Label();
             this.totalPrice = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.tp = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -65,10 +64,10 @@
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblName.Location = new System.Drawing.Point(3, 73);
+            this.lblName.Font = new System.Drawing.Font("Milky Coffee", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.Location = new System.Drawing.Point(6, 71);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(122, 20);
+            this.lblName.Size = new System.Drawing.Size(123, 21);
             this.lblName.TabIndex = 1;
             this.lblName.Text = "Sara´s Bakery";
             // 
@@ -115,18 +114,18 @@
             // lblCakes
             // 
             this.lblCakes.AutoSize = true;
-            this.lblCakes.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCakes.Location = new System.Drawing.Point(201, 20);
+            this.lblCakes.Font = new System.Drawing.Font("Milky Coffee", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCakes.Location = new System.Drawing.Point(256, 33);
             this.lblCakes.Name = "lblCakes";
-            this.lblCakes.Size = new System.Drawing.Size(92, 31);
+            this.lblCakes.Size = new System.Drawing.Size(105, 32);
             this.lblCakes.TabIndex = 6;
             this.lblCakes.Text = "Tortas";
             // 
             // littleTortaChoco
             // 
             this.littleTortaChoco.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(191)))));
-            this.littleTortaChoco.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.littleTortaChoco.Location = new System.Drawing.Point(41, 246);
+            this.littleTortaChoco.Font = new System.Drawing.Font("Milky Coffee", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.littleTortaChoco.Location = new System.Drawing.Point(40, 246);
             this.littleTortaChoco.Margin = new System.Windows.Forms.Padding(2);
             this.littleTortaChoco.Name = "littleTortaChoco";
             this.littleTortaChoco.Size = new System.Drawing.Size(95, 26);
@@ -138,11 +137,11 @@
             // extraTortaChoco
             // 
             this.extraTortaChoco.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(191)))));
-            this.extraTortaChoco.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.extraTortaChoco.Location = new System.Drawing.Point(143, 246);
+            this.extraTortaChoco.Font = new System.Drawing.Font("Milky Coffee", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.extraTortaChoco.Location = new System.Drawing.Point(139, 246);
             this.extraTortaChoco.Margin = new System.Windows.Forms.Padding(2);
             this.extraTortaChoco.Name = "extraTortaChoco";
-            this.extraTortaChoco.Size = new System.Drawing.Size(95, 26);
+            this.extraTortaChoco.Size = new System.Drawing.Size(96, 26);
             this.extraTortaChoco.TabIndex = 8;
             this.extraTortaChoco.Text = "20 porciones";
             this.extraTortaChoco.UseVisualStyleBackColor = false;
@@ -151,11 +150,11 @@
             // extraTortaRojaXD
             // 
             this.extraTortaRojaXD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(191)))));
-            this.extraTortaRojaXD.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.extraTortaRojaXD.Location = new System.Drawing.Point(353, 246);
+            this.extraTortaRojaXD.Font = new System.Drawing.Font("Milky Coffee", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.extraTortaRojaXD.Location = new System.Drawing.Point(354, 246);
             this.extraTortaRojaXD.Margin = new System.Windows.Forms.Padding(2);
             this.extraTortaRojaXD.Name = "extraTortaRojaXD";
-            this.extraTortaRojaXD.Size = new System.Drawing.Size(95, 26);
+            this.extraTortaRojaXD.Size = new System.Drawing.Size(96, 26);
             this.extraTortaRojaXD.TabIndex = 10;
             this.extraTortaRojaXD.Text = "20 porciones";
             this.extraTortaRojaXD.UseVisualStyleBackColor = false;
@@ -164,8 +163,8 @@
             // littleTortaRojaXD
             // 
             this.littleTortaRojaXD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(191)))));
-            this.littleTortaRojaXD.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.littleTortaRojaXD.Location = new System.Drawing.Point(251, 246);
+            this.littleTortaRojaXD.Font = new System.Drawing.Font("Milky Coffee", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.littleTortaRojaXD.Location = new System.Drawing.Point(252, 246);
             this.littleTortaRojaXD.Margin = new System.Windows.Forms.Padding(2);
             this.littleTortaRojaXD.Name = "littleTortaRojaXD";
             this.littleTortaRojaXD.Size = new System.Drawing.Size(95, 26);
@@ -177,11 +176,11 @@
             // extraTortaNaranja
             // 
             this.extraTortaNaranja.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(191)))));
-            this.extraTortaNaranja.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.extraTortaNaranja.Location = new System.Drawing.Point(575, 246);
+            this.extraTortaNaranja.Font = new System.Drawing.Font("Milky Coffee", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.extraTortaNaranja.Location = new System.Drawing.Point(580, 246);
             this.extraTortaNaranja.Margin = new System.Windows.Forms.Padding(2);
             this.extraTortaNaranja.Name = "extraTortaNaranja";
-            this.extraTortaNaranja.Size = new System.Drawing.Size(95, 26);
+            this.extraTortaNaranja.Size = new System.Drawing.Size(99, 26);
             this.extraTortaNaranja.TabIndex = 12;
             this.extraTortaNaranja.Text = "20 porciones";
             this.extraTortaNaranja.UseVisualStyleBackColor = false;
@@ -190,8 +189,8 @@
             // littleTortaNaranja
             // 
             this.littleTortaNaranja.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(191)))));
-            this.littleTortaNaranja.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.littleTortaNaranja.Location = new System.Drawing.Point(473, 246);
+            this.littleTortaNaranja.Font = new System.Drawing.Font("Milky Coffee", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.littleTortaNaranja.Location = new System.Drawing.Point(478, 246);
             this.littleTortaNaranja.Margin = new System.Windows.Forms.Padding(2);
             this.littleTortaNaranja.Name = "littleTortaNaranja";
             this.littleTortaNaranja.Size = new System.Drawing.Size(95, 26);
@@ -203,66 +202,66 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(67, 274);
+            this.label1.Font = new System.Drawing.Font("Milky Coffee", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(56, 274);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 17);
+            this.label1.Size = new System.Drawing.Size(67, 21);
             this.label1.TabIndex = 13;
             this.label1.Text = "$35.000";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(167, 274);
+            this.label2.Font = new System.Drawing.Font("Milky Coffee", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(159, 274);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 17);
+            this.label2.Size = new System.Drawing.Size(66, 21);
             this.label2.TabIndex = 14;
             this.label2.Text = "$70.000";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(379, 274);
+            this.label3.Font = new System.Drawing.Font("Milky Coffee", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(372, 274);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 17);
+            this.label3.Size = new System.Drawing.Size(66, 21);
             this.label3.TabIndex = 16;
             this.label3.Text = "$80.000";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(279, 274);
+            this.label4.Font = new System.Drawing.Font("Milky Coffee", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(266, 274);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 17);
+            this.label4.Size = new System.Drawing.Size(66, 21);
             this.label4.TabIndex = 15;
             this.label4.Text = "$40.000";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(603, 274);
+            this.label5.Font = new System.Drawing.Font("Milky Coffee", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(597, 274);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(60, 17);
+            this.label5.Size = new System.Drawing.Size(67, 21);
             this.label5.TabIndex = 18;
             this.label5.Text = "$50.000";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(502, 274);
+            this.label6.Font = new System.Drawing.Font("Milky Coffee", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(494, 274);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(60, 17);
+            this.label6.Size = new System.Drawing.Size(67, 21);
             this.label6.TabIndex = 17;
             this.label6.Text = "$30.000";
             // 
@@ -289,31 +288,34 @@
             this.label7.Size = new System.Drawing.Size(0, 13);
             this.label7.TabIndex = 21;
             // 
-            // label8
+            // lblUser
             // 
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(491, 31);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(67, 20);
-            this.label8.TabIndex = 22;
-            this.label8.Text = "Usuario: ";
+            this.lblUser.Font = new System.Drawing.Font("Milky Coffee", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUser.Location = new System.Drawing.Point(491, 31);
+            this.lblUser.Name = "lblUser";
+            this.lblUser.Size = new System.Drawing.Size(199, 21);
+            this.lblUser.TabIndex = 22;
+            this.lblUser.Text = "Usuario: ";
             // 
             // Carrito
             // 
-            this.Carrito.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(216)))), ((int)(((byte)(226)))));
+            this.Carrito.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.Carrito.Font = new System.Drawing.Font("Milky Coffee", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Carrito.FormattingEnabled = true;
-            this.Carrito.Location = new System.Drawing.Point(143, 321);
+            this.Carrito.ItemHeight = 15;
+            this.Carrito.Location = new System.Drawing.Point(79, 313);
             this.Carrito.Name = "Carrito";
-            this.Carrito.Size = new System.Drawing.Size(179, 108);
+            this.Carrito.Size = new System.Drawing.Size(268, 109);
             this.Carrito.TabIndex = 23;
             // 
             // total
             // 
             this.total.AutoSize = true;
             this.total.Cursor = System.Windows.Forms.Cursors.No;
-            this.total.Location = new System.Drawing.Point(423, 360);
+            this.total.Font = new System.Drawing.Font("Milky Coffee", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.total.Location = new System.Drawing.Point(389, 360);
             this.total.Name = "total";
-            this.total.Size = new System.Drawing.Size(48, 13);
+            this.total.Size = new System.Drawing.Size(81, 21);
             this.total.TabIndex = 24;
             this.total.Text = "TOTAL :";
             this.total.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -326,21 +328,13 @@
             this.totalPrice.Size = new System.Drawing.Size(0, 13);
             this.totalPrice.TabIndex = 25;
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(0, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(35, 13);
-            this.label9.TabIndex = 26;
-            this.label9.Text = "label9";
-            // 
             // tp
             // 
             this.tp.AutoSize = true;
+            this.tp.Font = new System.Drawing.Font("Milky Coffee", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tp.Location = new System.Drawing.Point(475, 360);
             this.tp.Name = "tp";
-            this.tp.Size = new System.Drawing.Size(13, 13);
+            this.tp.Size = new System.Drawing.Size(19, 21);
             this.tp.TabIndex = 27;
             this.tp.Text = "0";
             // 
@@ -351,11 +345,10 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(216)))), ((int)(((byte)(226)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tp);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.totalPrice);
             this.Controls.Add(this.total);
             this.Controls.Add(this.Carrito);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.lblUser);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.userLabel);
             this.Controls.Add(this.vScrollBar1);
@@ -413,11 +406,10 @@
         private System.Windows.Forms.VScrollBar vScrollBar1;
         private System.Windows.Forms.Label userLabel;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ListBox Carrito;
         private System.Windows.Forms.Label total;
         private System.Windows.Forms.Label totalPrice;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label tp;
+        public System.Windows.Forms.Label lblUser;
     }
 }

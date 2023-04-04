@@ -21,14 +21,7 @@ namespace SaraBakery
 
         private void Dashboard_Load(object sender, EventArgs e)
         {
-            userLabel.Text = SignInA.user;
-        }
-
-        private void ajustPrice(double _unitPrice)
-        {
-            double unitPrice = _unitPrice;
-            Carrito.Items.Add(unitPrice.ToString("N3"));
-            prices = unitPrice;
+            userLabel.Text = SignIn.user;
         }
 
         private void sum(double _price) 
@@ -39,43 +32,37 @@ namespace SaraBakery
 
         private void littleTortaChoco_Click(object sender, EventArgs e)
         {
-            double price = 35.000;
-            ajustPrice(price);
+            int price = 35000;
             sum(price);
         }
 
         private void extraTortaChoco_Click(object sender, EventArgs e)
         {
-            double price = 70.000;
-            ajustPrice(70.000);
+            int price = 70000;
             sum(price);
         }
 
         private void littleTortaRojaXD_Click(object sender, EventArgs e)
         {
-            double price = 40.000;
-            ajustPrice(40.000);
+            int price = 40000;
             sum(price);
         }
 
         private void extraTortaRojaXD_Click(object sender, EventArgs e)
         {
-            double price = 80.000;
-            ajustPrice(80.000);
+            int price = 80000;
             sum(price);
         }
 
         private void littleTortaNaranja_Click(object sender, EventArgs e)
         {
-            double price = 30.000;
-            ajustPrice(30.000);
+            int price = 30000;
             sum(price);
         }
 
         private void extraTortaNaranja_Click(object sender, EventArgs e)
         {
-            double price = 50.000;
-            ajustPrice(50.000);
+            int price = 50000;
             sum(price);
         }
     }
