@@ -35,12 +35,12 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.lblCakes = new System.Windows.Forms.Label();
-            this.btn10c = new System.Windows.Forms.Button();
-            this.btn20c = new System.Windows.Forms.Button();
-            this.btn20r = new System.Windows.Forms.Button();
-            this.btn10r = new System.Windows.Forms.Button();
-            this.btn20n = new System.Windows.Forms.Button();
-            this.btn10n = new System.Windows.Forms.Button();
+            this.littleTortaChoco = new System.Windows.Forms.Button();
+            this.extraTortaChoco = new System.Windows.Forms.Button();
+            this.extraTortaRojaXD = new System.Windows.Forms.Button();
+            this.littleTortaRojaXD = new System.Windows.Forms.Button();
+            this.extraTortaNaranja = new System.Windows.Forms.Button();
+            this.littleTortaNaranja = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -48,6 +48,14 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
+            this.userLabel = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.Carrito = new System.Windows.Forms.ListBox();
+            this.total = new System.Windows.Forms.Label();
+            this.totalPrice = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.tp = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -57,21 +65,19 @@
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Font = new System.Drawing.Font("Milky Coffee", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblName.Location = new System.Drawing.Point(4, 112);
-            this.lblName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.Location = new System.Drawing.Point(3, 73);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(171, 27);
+            this.lblName.Size = new System.Drawing.Size(122, 20);
             this.lblName.TabIndex = 1;
             this.lblName.Text = "Sara´s Bakery";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::SaraBakery.Properties.Resources.cupcake;
-            this.pictureBox1.Location = new System.Drawing.Point(18, 18);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(21, 6);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(144, 91);
+            this.pictureBox1.Size = new System.Drawing.Size(96, 59);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -79,10 +85,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::SaraBakery.Properties.Resources.chocolate;
-            this.pictureBox2.Location = new System.Drawing.Point(50, 175);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox2.Location = new System.Drawing.Point(43, 107);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(294, 194);
+            this.pictureBox2.Size = new System.Drawing.Size(196, 126);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
@@ -90,10 +95,9 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::SaraBakery.Properties.Resources.orange;
-            this.pictureBox3.Location = new System.Drawing.Point(702, 175);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox3.Location = new System.Drawing.Point(478, 107);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(294, 194);
+            this.pictureBox3.Size = new System.Drawing.Size(196, 126);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 4;
             this.pictureBox3.TabStop = false;
@@ -101,10 +105,9 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::SaraBakery.Properties.Resources.redvelvet;
-            this.pictureBox4.Location = new System.Drawing.Point(365, 175);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox4.Location = new System.Drawing.Point(253, 107);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(294, 194);
+            this.pictureBox4.Size = new System.Drawing.Size(196, 126);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 5;
             this.pictureBox4.TabStop = false;
@@ -112,153 +115,249 @@
             // lblCakes
             // 
             this.lblCakes.AutoSize = true;
-            this.lblCakes.Font = new System.Drawing.Font("Milky Coffee", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCakes.Location = new System.Drawing.Point(302, 30);
-            this.lblCakes.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblCakes.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCakes.Location = new System.Drawing.Point(201, 20);
             this.lblCakes.Name = "lblCakes";
-            this.lblCakes.Size = new System.Drawing.Size(148, 45);
+            this.lblCakes.Size = new System.Drawing.Size(92, 31);
             this.lblCakes.TabIndex = 6;
             this.lblCakes.Text = "Tortas";
             // 
-            // btn10c
+            // littleTortaChoco
             // 
-            this.btn10c.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(191)))));
-            this.btn10c.Font = new System.Drawing.Font("Milky Coffee", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn10c.Location = new System.Drawing.Point(47, 390);
-            this.btn10c.Name = "btn10c";
-            this.btn10c.Size = new System.Drawing.Size(142, 40);
-            this.btn10c.TabIndex = 7;
-            this.btn10c.Text = "10 porciones";
-            this.btn10c.UseVisualStyleBackColor = false;
+            this.littleTortaChoco.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(191)))));
+            this.littleTortaChoco.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.littleTortaChoco.Location = new System.Drawing.Point(41, 246);
+            this.littleTortaChoco.Margin = new System.Windows.Forms.Padding(2);
+            this.littleTortaChoco.Name = "littleTortaChoco";
+            this.littleTortaChoco.Size = new System.Drawing.Size(95, 26);
+            this.littleTortaChoco.TabIndex = 7;
+            this.littleTortaChoco.Text = "10 porciones";
+            this.littleTortaChoco.UseVisualStyleBackColor = false;
+            this.littleTortaChoco.Click += new System.EventHandler(this.littleTortaChoco_Click);
             // 
-            // btn20c
+            // extraTortaChoco
             // 
-            this.btn20c.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(191)))));
-            this.btn20c.Font = new System.Drawing.Font("Milky Coffee", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn20c.Location = new System.Drawing.Point(199, 390);
-            this.btn20c.Name = "btn20c";
-            this.btn20c.Size = new System.Drawing.Size(142, 40);
-            this.btn20c.TabIndex = 8;
-            this.btn20c.Text = "20 porciones";
-            this.btn20c.UseVisualStyleBackColor = false;
+            this.extraTortaChoco.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(191)))));
+            this.extraTortaChoco.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.extraTortaChoco.Location = new System.Drawing.Point(143, 246);
+            this.extraTortaChoco.Margin = new System.Windows.Forms.Padding(2);
+            this.extraTortaChoco.Name = "extraTortaChoco";
+            this.extraTortaChoco.Size = new System.Drawing.Size(95, 26);
+            this.extraTortaChoco.TabIndex = 8;
+            this.extraTortaChoco.Text = "20 porciones";
+            this.extraTortaChoco.UseVisualStyleBackColor = false;
+            this.extraTortaChoco.Click += new System.EventHandler(this.extraTortaChoco_Click);
             // 
-            // btn20r
+            // extraTortaRojaXD
             // 
-            this.btn20r.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(191)))));
-            this.btn20r.Font = new System.Drawing.Font("Milky Coffee", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn20r.Location = new System.Drawing.Point(514, 390);
-            this.btn20r.Name = "btn20r";
-            this.btn20r.Size = new System.Drawing.Size(142, 40);
-            this.btn20r.TabIndex = 10;
-            this.btn20r.Text = "20 porciones";
-            this.btn20r.UseVisualStyleBackColor = false;
+            this.extraTortaRojaXD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(191)))));
+            this.extraTortaRojaXD.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.extraTortaRojaXD.Location = new System.Drawing.Point(353, 246);
+            this.extraTortaRojaXD.Margin = new System.Windows.Forms.Padding(2);
+            this.extraTortaRojaXD.Name = "extraTortaRojaXD";
+            this.extraTortaRojaXD.Size = new System.Drawing.Size(95, 26);
+            this.extraTortaRojaXD.TabIndex = 10;
+            this.extraTortaRojaXD.Text = "20 porciones";
+            this.extraTortaRojaXD.UseVisualStyleBackColor = false;
+            this.extraTortaRojaXD.Click += new System.EventHandler(this.extraTortaRojaXD_Click);
             // 
-            // btn10r
+            // littleTortaRojaXD
             // 
-            this.btn10r.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(191)))));
-            this.btn10r.Font = new System.Drawing.Font("Milky Coffee", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn10r.Location = new System.Drawing.Point(361, 390);
-            this.btn10r.Name = "btn10r";
-            this.btn10r.Size = new System.Drawing.Size(142, 40);
-            this.btn10r.TabIndex = 9;
-            this.btn10r.Text = "10 porciones";
-            this.btn10r.UseVisualStyleBackColor = false;
+            this.littleTortaRojaXD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(191)))));
+            this.littleTortaRojaXD.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.littleTortaRojaXD.Location = new System.Drawing.Point(251, 246);
+            this.littleTortaRojaXD.Margin = new System.Windows.Forms.Padding(2);
+            this.littleTortaRojaXD.Name = "littleTortaRojaXD";
+            this.littleTortaRojaXD.Size = new System.Drawing.Size(95, 26);
+            this.littleTortaRojaXD.TabIndex = 9;
+            this.littleTortaRojaXD.Text = "10 porciones";
+            this.littleTortaRojaXD.UseVisualStyleBackColor = false;
+            this.littleTortaRojaXD.Click += new System.EventHandler(this.littleTortaRojaXD_Click);
             // 
-            // btn20n
+            // extraTortaNaranja
             // 
-            this.btn20n.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(191)))));
-            this.btn20n.Font = new System.Drawing.Font("Milky Coffee", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn20n.Location = new System.Drawing.Point(848, 390);
-            this.btn20n.Name = "btn20n";
-            this.btn20n.Size = new System.Drawing.Size(142, 40);
-            this.btn20n.TabIndex = 12;
-            this.btn20n.Text = "20 porciones";
-            this.btn20n.UseVisualStyleBackColor = false;
+            this.extraTortaNaranja.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(191)))));
+            this.extraTortaNaranja.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.extraTortaNaranja.Location = new System.Drawing.Point(575, 246);
+            this.extraTortaNaranja.Margin = new System.Windows.Forms.Padding(2);
+            this.extraTortaNaranja.Name = "extraTortaNaranja";
+            this.extraTortaNaranja.Size = new System.Drawing.Size(95, 26);
+            this.extraTortaNaranja.TabIndex = 12;
+            this.extraTortaNaranja.Text = "20 porciones";
+            this.extraTortaNaranja.UseVisualStyleBackColor = false;
+            this.extraTortaNaranja.Click += new System.EventHandler(this.extraTortaNaranja_Click);
             // 
-            // btn10n
+            // littleTortaNaranja
             // 
-            this.btn10n.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(191)))));
-            this.btn10n.Font = new System.Drawing.Font("Milky Coffee", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn10n.Location = new System.Drawing.Point(695, 390);
-            this.btn10n.Name = "btn10n";
-            this.btn10n.Size = new System.Drawing.Size(142, 40);
-            this.btn10n.TabIndex = 11;
-            this.btn10n.Text = "10 porciones";
-            this.btn10n.UseVisualStyleBackColor = false;
+            this.littleTortaNaranja.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(191)))));
+            this.littleTortaNaranja.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.littleTortaNaranja.Location = new System.Drawing.Point(473, 246);
+            this.littleTortaNaranja.Margin = new System.Windows.Forms.Padding(2);
+            this.littleTortaNaranja.Name = "littleTortaNaranja";
+            this.littleTortaNaranja.Size = new System.Drawing.Size(95, 26);
+            this.littleTortaNaranja.TabIndex = 11;
+            this.littleTortaNaranja.Text = "10 porciones";
+            this.littleTortaNaranja.UseVisualStyleBackColor = false;
+            this.littleTortaNaranja.Click += new System.EventHandler(this.littleTortaNaranja_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Milky Coffee", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(85, 433);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(67, 274);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 23);
+            this.label1.Size = new System.Drawing.Size(60, 17);
             this.label1.TabIndex = 13;
             this.label1.Text = "$35.000";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Milky Coffee", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(236, 433);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(167, 274);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 23);
+            this.label2.Size = new System.Drawing.Size(60, 17);
             this.label2.TabIndex = 14;
             this.label2.Text = "$70.000";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Milky Coffee", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(554, 433);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(379, 274);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 23);
+            this.label3.Size = new System.Drawing.Size(60, 17);
             this.label3.TabIndex = 16;
             this.label3.Text = "$80.000";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Milky Coffee", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(403, 433);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(279, 274);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(67, 23);
+            this.label4.Size = new System.Drawing.Size(60, 17);
             this.label4.TabIndex = 15;
             this.label4.Text = "$40.000";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Milky Coffee", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(889, 433);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(603, 274);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(68, 23);
+            this.label5.Size = new System.Drawing.Size(60, 17);
             this.label5.TabIndex = 18;
             this.label5.Text = "$50.000";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Milky Coffee", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(738, 433);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(502, 274);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(68, 23);
+            this.label6.Size = new System.Drawing.Size(60, 17);
             this.label6.TabIndex = 17;
             this.label6.Text = "$30.000";
             // 
             // vScrollBar1
             // 
-            this.vScrollBar1.Location = new System.Drawing.Point(1165, 9);
+            this.vScrollBar1.Location = new System.Drawing.Point(777, 6);
             this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(26, 674);
+            this.vScrollBar1.Size = new System.Drawing.Size(26, 438);
             this.vScrollBar1.TabIndex = 19;
+            // 
+            // userLabel
+            // 
+            this.userLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userLabel.Location = new System.Drawing.Point(564, 31);
+            this.userLabel.Name = "userLabel";
+            this.userLabel.Size = new System.Drawing.Size(89, 20);
+            this.userLabel.TabIndex = 20;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(495, 30);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(0, 13);
+            this.label7.TabIndex = 21;
+            // 
+            // label8
+            // 
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(491, 31);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(67, 20);
+            this.label8.TabIndex = 22;
+            this.label8.Text = "Usuario: ";
+            // 
+            // Carrito
+            // 
+            this.Carrito.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(216)))), ((int)(((byte)(226)))));
+            this.Carrito.FormattingEnabled = true;
+            this.Carrito.Location = new System.Drawing.Point(143, 321);
+            this.Carrito.Name = "Carrito";
+            this.Carrito.Size = new System.Drawing.Size(179, 108);
+            this.Carrito.TabIndex = 23;
+            // 
+            // total
+            // 
+            this.total.AutoSize = true;
+            this.total.Cursor = System.Windows.Forms.Cursors.No;
+            this.total.Location = new System.Drawing.Point(423, 360);
+            this.total.Name = "total";
+            this.total.Size = new System.Drawing.Size(48, 13);
+            this.total.TabIndex = 24;
+            this.total.Text = "TOTAL :";
+            this.total.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // totalPrice
+            // 
+            this.totalPrice.AutoSize = true;
+            this.totalPrice.Location = new System.Drawing.Point(470, 360);
+            this.totalPrice.Name = "totalPrice";
+            this.totalPrice.Size = new System.Drawing.Size(0, 13);
+            this.totalPrice.TabIndex = 25;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(0, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(35, 13);
+            this.label9.TabIndex = 26;
+            this.label9.Text = "label9";
+            // 
+            // tp
+            // 
+            this.tp.AutoSize = true;
+            this.tp.Location = new System.Drawing.Point(475, 360);
+            this.tp.Name = "tp";
+            this.tp.Size = new System.Drawing.Size(13, 13);
+            this.tp.TabIndex = 27;
+            this.tp.Text = "0";
             // 
             // Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(216)))), ((int)(((byte)(226)))));
-            this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.tp);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.totalPrice);
+            this.Controls.Add(this.total);
+            this.Controls.Add(this.Carrito);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.userLabel);
             this.Controls.Add(this.vScrollBar1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
@@ -266,12 +365,12 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btn20n);
-            this.Controls.Add(this.btn10n);
-            this.Controls.Add(this.btn20r);
-            this.Controls.Add(this.btn10r);
-            this.Controls.Add(this.btn20c);
-            this.Controls.Add(this.btn10c);
+            this.Controls.Add(this.extraTortaNaranja);
+            this.Controls.Add(this.littleTortaNaranja);
+            this.Controls.Add(this.extraTortaRojaXD);
+            this.Controls.Add(this.littleTortaRojaXD);
+            this.Controls.Add(this.extraTortaChoco);
+            this.Controls.Add(this.littleTortaChoco);
             this.Controls.Add(this.lblCakes);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
@@ -279,7 +378,6 @@
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Dashboard";
             this.Text = "Dashboard";
             this.Load += new System.EventHandler(this.Dashboard_Load);
@@ -300,12 +398,12 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label lblCakes;
-        private System.Windows.Forms.Button btn10c;
-        private System.Windows.Forms.Button btn20c;
-        private System.Windows.Forms.Button btn20r;
-        private System.Windows.Forms.Button btn10r;
-        private System.Windows.Forms.Button btn20n;
-        private System.Windows.Forms.Button btn10n;
+        private System.Windows.Forms.Button littleTortaChoco;
+        private System.Windows.Forms.Button extraTortaChoco;
+        private System.Windows.Forms.Button extraTortaRojaXD;
+        private System.Windows.Forms.Button littleTortaRojaXD;
+        private System.Windows.Forms.Button extraTortaNaranja;
+        private System.Windows.Forms.Button littleTortaNaranja;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -313,5 +411,13 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.VScrollBar vScrollBar1;
+        private System.Windows.Forms.Label userLabel;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.ListBox Carrito;
+        private System.Windows.Forms.Label total;
+        private System.Windows.Forms.Label totalPrice;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label tp;
     }
 }
