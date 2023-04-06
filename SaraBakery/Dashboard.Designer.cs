@@ -55,6 +55,7 @@
             this.total = new System.Windows.Forms.Label();
             this.totalPrice = new System.Windows.Forms.Label();
             this.tp = new System.Windows.Forms.Label();
+            this.btnEnvio = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -290,12 +291,12 @@
             // 
             // lblUser
             // 
-            this.lblUser.Font = new System.Drawing.Font("Milky Coffee", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUser.Location = new System.Drawing.Point(491, 31);
+            this.lblUser.Font = new System.Drawing.Font("Milky Coffee", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUser.Location = new System.Drawing.Point(614, 10);
             this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(199, 21);
+            this.lblUser.Size = new System.Drawing.Size(82, 21);
             this.lblUser.TabIndex = 22;
-            this.lblUser.Text = "Usuario: ";
+            this.lblUser.Text = "Usuario";
             // 
             // Carrito
             // 
@@ -313,7 +314,7 @@
             this.total.AutoSize = true;
             this.total.Cursor = System.Windows.Forms.Cursors.No;
             this.total.Font = new System.Drawing.Font("Milky Coffee", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.total.Location = new System.Drawing.Point(389, 360);
+            this.total.Location = new System.Drawing.Point(389, 343);
             this.total.Name = "total";
             this.total.Size = new System.Drawing.Size(81, 21);
             this.total.TabIndex = 24;
@@ -323,7 +324,7 @@
             // totalPrice
             // 
             this.totalPrice.AutoSize = true;
-            this.totalPrice.Location = new System.Drawing.Point(470, 360);
+            this.totalPrice.Location = new System.Drawing.Point(470, 343);
             this.totalPrice.Name = "totalPrice";
             this.totalPrice.Size = new System.Drawing.Size(0, 13);
             this.totalPrice.TabIndex = 25;
@@ -332,11 +333,22 @@
             // 
             this.tp.AutoSize = true;
             this.tp.Font = new System.Drawing.Font("Milky Coffee", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tp.Location = new System.Drawing.Point(475, 360);
+            this.tp.Location = new System.Drawing.Point(475, 343);
             this.tp.Name = "tp";
             this.tp.Size = new System.Drawing.Size(19, 21);
             this.tp.TabIndex = 27;
             this.tp.Text = "0";
+            // 
+            // btnEnvio
+            // 
+            this.btnEnvio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnEnvio.Font = new System.Drawing.Font("Milky Coffee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEnvio.Location = new System.Drawing.Point(407, 371);
+            this.btnEnvio.Name = "btnEnvio";
+            this.btnEnvio.Size = new System.Drawing.Size(76, 48);
+            this.btnEnvio.TabIndex = 28;
+            this.btnEnvio.Text = "Calcular envio";
+            this.btnEnvio.UseVisualStyleBackColor = false;
             // 
             // Dashboard
             // 
@@ -344,6 +356,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(216)))), ((int)(((byte)(226)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnEnvio);
             this.Controls.Add(this.tp);
             this.Controls.Add(this.totalPrice);
             this.Controls.Add(this.total);
@@ -411,5 +424,6 @@
         private System.Windows.Forms.Label totalPrice;
         private System.Windows.Forms.Label tp;
         public System.Windows.Forms.Label lblUser;
+        private System.Windows.Forms.Button btnEnvio;
     }
 }
