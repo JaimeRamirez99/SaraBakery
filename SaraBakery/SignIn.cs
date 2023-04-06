@@ -24,7 +24,7 @@ namespace SaraBakery
             string user = txtUser.Text;
             string password = txtPassword.Text;
 
-            if (user == "Sara1010" && password == "1001004361")
+            if (user == "1" && password == "1")
             {
                 this.Hide();
                 Dashboard abrir = new Dashboard();
